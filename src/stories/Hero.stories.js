@@ -1,7 +1,8 @@
 import React from "react";
 
 import Hero from "../components/Hero";
-import BgNecklaceImage from "./assets/bg-necklace.jpg";
+import BgNecklaceImage from "./assets/bg-necklace1.jpg";
+import Heading from "../components/Heading";
 
 export default {
   title: "Hero",
@@ -9,15 +10,13 @@ export default {
 };
 
 export const usage = () => (
-  <Hero
-    title={
-      <span>
+  <Hero image={BgNecklaceImage}>
+    <Heading>
+      <h1>
         Melhore seu <strong>visual</strong>
         <br /> de acordo com seu gosto
-      </span>
-    }
-    image={BgNecklaceImage}
-  >
+      </h1>
+    </Heading>
     <ul>
       <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
       <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
