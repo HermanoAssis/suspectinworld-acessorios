@@ -1,11 +1,12 @@
 import React from "react";
+import { text } from "@storybook/addon-knobs";
 
 import Hero from "./Hero";
 import BgNecklaceImage from "../stories/assets/bg-necklace1.jpg";
 import Heading from "./Heading";
 
 export default {
-  title: "Hero",
+  title: "Components|Hero",
   component: Hero,
 };
 

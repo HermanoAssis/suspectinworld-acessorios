@@ -10,7 +10,7 @@ export const parameters = {
 
 import { addDecorator, addParameters } from "@storybook/react";
 import React from "react";
-import GlobalStyle from "../src/components/GlobalStyle";
+import GlobalStyle from "../src/styles/GlobalStyle";
 
 addDecorator((storyFn) => (
   <React.Fragment>
