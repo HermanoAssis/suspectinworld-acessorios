@@ -4,7 +4,7 @@ exports[`match snapshot 1`] = `
 <head>
   <style
     data-styled="active"
-    data-styled-version="5.3.6"
+    data-styled-version="5.3.9"
   />
 </head>
 `;
